@@ -531,6 +531,10 @@ body {
         margin-top: -2.8rem;
         margin-right: 1.3rem;
    }
+
+   .social_media_icons a{
+     padding: 0.7rem 1.5rem;
+   }
     
 }
 
