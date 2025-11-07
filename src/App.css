@@ -515,6 +515,13 @@ body {
     margin-right: 1.1rem;
    }
 
+   .social_media_icons a{
+    flex-direction: column;
+    padding: 0.5rem 0.8rem;
+    row-gap: 0.4rem;
+   }
+
+
 
 }
 

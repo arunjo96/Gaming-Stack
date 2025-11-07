@@ -67,7 +67,7 @@ const SocialMedia = () => {
               variants={containerVariants}
               initial="hidden"
               animate="visible"
-              className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl social_media_icons"
+              className="grid grid-cols-2  md:grid-cols-3 gap-4 max-w-4xl social_media_icons"
             >
               <motion.a
                 href="https://www.youtube.com/"
