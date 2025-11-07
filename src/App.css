@@ -236,6 +236,10 @@ body {
     padding: 1rem 0.7rem 2.7rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .fav_icon{
@@ -252,9 +256,7 @@ body {
 .play_now_btn {
     font-size: 1.1rem;
     padding: 0.6rem 1.6rem;
-    position: absolute;
-    left: 57px;
-    bottom: 32px;
+    width: max-content;
     transform: skew(-35deg, 13deg) rotateX(8deg) rotateY(11deg) rotateZ(-12deg) rotate3d(7, 8, 8, -6deg) matrix(1, 0, 0.1, 1, 7, 16);
 }
 
@@ -508,25 +510,39 @@ body {
     width: 12%;
  }
 
+ .play_now_btn {
+     margin-top: -2.3rem;
+    margin-right: 1.1rem;
+   }
+
 
 }
 
 @media (min-width:370px) and (max-width:420px) {
    .play_now_btn {
-    padding: 0.6rem 2.6rem;
-    left: 70px;
-    bottom: 37px;
-    width: max-content;
+        padding: 0.6rem 2.5rem;
+        margin-top: -2.8rem;
+        margin-right: 1.3rem;
    }
     
 }
 
-@media (min-width:425px) and (max-width:520px) {
+@media (min-width:425px) {
   .play_now_btn {
-    padding: 0.6rem 3.3rem;
-        left: 82px;
-        bottom: 42px;
-    width: max-content;
+            padding: 0.6rem 3.3rem;
+        margin-top: -3rem;
+        margin-right: 1.6rem;
+   }
+
+   .popular_sec h1::before, .popular_sec h1::after {
+        width: 22%;
+    }
+}
+
+@media (min-width:500px)  {
+  .play_now_btn {
+    margin-top: -3.7rem;
+    padding: 0.6rem 4.5rem;
    }
 }
 
@@ -563,8 +579,8 @@ body {
   .play_now_btn {
     font-size: 1rem;
     padding: 0.4rem 1.1rem;
-    left: 49px;
-    bottom: 35px;
+   margin-top: -2.1rem;
+        margin-right: 1rem;
   }
 
   .contact_details{
@@ -590,20 +606,21 @@ body {
     row-gap: inherit;
     padding-top: 1rem;
    }
+   .popular_sec h1::before, .popular_sec h1::after {
+    width: 27%;
+   }
 }
 
 @media  (min-width:1024px) and (max-width:1200px) {
    .play_now_btn {
           font-size: 0.9rem;
         padding: 0.4rem 1rem;
-        left: 45px;
-        bottom: 36px;
+      margin-right: 1rem;
+      margin-top: -2rem;
    }
    .card_div{
     height: 90vh;
    }
-
-
 
    .content_sec, .girl_content_sec{
     padding-left: 1rem;
@@ -629,6 +646,14 @@ body {
    .social_media_bg {
     background-size: cover;
     background-position-x: 28%;
+   }
+}
+
+@media (min-width:1300px) {
+   .play_now_btn {
+        padding: 0.6rem 1.4rem;
+        margin-top: -2.4rem;
+        margin-right: 1.4rem;
    }
 }
     

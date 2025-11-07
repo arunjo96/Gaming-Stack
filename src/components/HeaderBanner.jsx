@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { IoIosArrowUp } from "react-icons/io";
 import mainBanner from "../assets/hero_banner/main_banner_bg.png";
 import textImg from "../assets/hero_banner/main_banner_txt.png";
-import rytSideImg from "../assets/hero_banner/Slot_Machine.png";
+import rytSideImg from "../assets/hero_banner/Slot_Machine.webp";
 import cryptoCoin1 from "../assets/hero_banner/crypto_coin_1.png";
 import cryptoCoin2 from "../assets/hero_banner/crypto_coin_2.png";
 import cryptoCoin3 from "../assets/hero_banner/crypto_coin_3.png";

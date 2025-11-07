@@ -25,7 +25,6 @@ const Batch = () => {
         <Swiper
           modules={[Autoplay]}
           spaceBetween={30}
-          slidesPerView={4}
           loop={true}
           speed={1000}
           autoplay={{
