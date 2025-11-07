@@ -45,4 +45,10 @@ src/
 ├─ App.jsx                
 └─ index.js               
 ```
+## ⚙️ Installation & Setup
+
+ Clone the repo
+   ```bash
+   git clone https://github.com/arunjo96/Gaming-Stack.git
+
 
